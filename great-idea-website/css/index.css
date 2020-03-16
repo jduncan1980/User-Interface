@@ -234,12 +234,14 @@ nav > a:hover {
 	padding: 5px 44px;
 	margin-top: 5px;
 	border: 1px solid black;
+	box-shadow: none;
 	background: none;
 	transition: all 0.5s;
 }
 
 .start-button:hover {
 	transform: scale(1.4);
+	box-shadow: 10px 10px 15px -4px rgba(0, 0, 0, 0.75);
 }
 
 .round-image {
