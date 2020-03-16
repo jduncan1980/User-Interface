@@ -167,6 +167,7 @@ header {
 	width: 57.65%;
 	position: fixed;
 	background: white;
+	z-index: 999;
 }
 
 header img {
@@ -192,7 +193,7 @@ nav > a {
 
 nav > a:hover {
 	color: #1c40b8;
-	transform: rotate(180deg);
+	transform: scale(1.2);
 }
 
 .container {
@@ -244,6 +245,22 @@ nav > a:hover {
 .round-image {
 	margin-top: 43px;
 	margin-right: 45px;
+	animation: fadeIn ease-in 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.round-image:hover {
+	transform: rotate(360deg);
 }
 
 .section__second {
