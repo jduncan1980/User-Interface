@@ -157,27 +157,14 @@ h5 {
 
 /* Your code starts here! */
 
-
 body {
 	background: black;
-}
-
-.main-heading {
-	font-size: 5rem;
-}
-
-.start-button {
-	font-size: 1.1rem;
-	padding: 6px 42px;
-	margin-top: 15px;
-	border: 1px solid black;
-	background: none;
-	
 }
 
 header {
 	padding: 26px 0;
 	margin-bottom: 43px;
+	width: 57.65%;
 	position: fixed;
 	background: white;
 }
@@ -195,16 +182,17 @@ nav {
 }
 
 nav > a {
-	font-size: .88rem;
+	font-size: 0.88rem;
 	text-decoration: none;
 	margin-right: 62px;
 	color: grey;
-	opacity: .7;
+	opacity: 0.7;
+	transition: all 1.5s;
 }
 
 nav > a:hover {
 	color: #1c40b8;
-	
+	transform: rotate(180deg);
 }
 
 .container {
@@ -215,17 +203,48 @@ nav > a:hover {
 
 .section__first {
 	height: 570px;
-	padding-top: 120px;
+	padding-top: 90px;
+	margin-bottom: 15px;
 }
 .section__first--left {
 	display: inline-block;
-	width: 50%;
+	margin-left: 60px;
+	height: 480px;
+	width: 45%;
 	text-align: center;
-	vertical-align: 20px;
-	margin-left: 50px;
-	margin-top: -100px;
 }
 
+.section__first--right {
+	display: inline-block;
+	margin-left: 30px;
+	height: 480px;
+	width: 45%;
+	text-align: center;
+	vertical-align: top;
+}
+
+.main-heading {
+	margin-top: 100px;
+	font-size: 5rem;
+}
+
+.start-button {
+	font-size: 1.1rem;
+	padding: 5px 44px;
+	margin-top: 5px;
+	border: 1px solid black;
+	background: none;
+	transition: all 0.5s;
+}
+
+.start-button:hover {
+	transform: scale(1.4);
+}
+
+.round-image {
+	margin-top: 43px;
+	margin-right: 45px;
+}
 
 .section__second {
 	width: 85%;
@@ -239,39 +258,39 @@ nav > a:hover {
 	width: 85%;
 	margin: 0 auto;
 }
-.box-half {  
+.box-half {
 	display: inline-block;
 	width: 49%;
-	margin-top: 15px; 
+	margin-top: 15px;
+	margin-right: 6px;
 }
 
-
-
 .box-third {
-display: inline-block;
-width: 33%;
-margin-top: 35px;
-margin-bottom: 35px;
+	display: inline-block;
+	width: 33%;
+	margin-top: 35px;
+	margin-bottom: 35px;
 }
 
 .middle-img {
-display: inline-block;
-margin-top: 35px;
+	display: inline-block;
+	margin-top: 35px;
 }
 
 footer {
-width: 85%;
-height: 300px;
-margin: 0 auto;
-margin-top: 40px;
+	width: 85%;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 40px;
 }
 
-p, address {
+p,
+address {
 	line-height: 1.2;
 }
 
 footer > p {
 	text-align: center;
 	margin-top: 40px;
-	font-size: .85rem;
+	font-size: 0.85rem;
 }
