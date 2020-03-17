@@ -164,7 +164,7 @@ body {
 header {
 	padding: 26px 0;
 	margin-bottom: 43px;
-	width: 57.65%;
+	width: 1024px;
 	position: fixed;
 	background: white;
 	z-index: 999;
@@ -259,10 +259,6 @@ nav > a:hover {
 	100% {
 		opacity: 1;
 	}
-}
-
-.round-image:hover {
-	transform: rotate(360deg);
 }
 
 .section__second {
